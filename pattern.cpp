@@ -119,7 +119,7 @@ int main(){
 
 
 
-
+/*
 void print6(int n){
     for (int i = 0; i < n; i++)
     {
@@ -135,6 +135,126 @@ int main(){
     cin >> n;
     print6(n);
 }
+    */
+
+
+
+
+
+/*
+    void print7(int n){
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n-i-1 ; j++)
+            {
+                cout << " ";
+            }
+            for (int j = 0; j < 2*i+1; j++)
+            {
+                cout << "*" ;
+            }
+            for (int j = 0; j < n-i-1 ; j++)
+            {
+                cout << " ";
+            }
+            cout << endl;
+        }
+    }
+    int main(){
+        int n;
+        cin >> n;
+        print7(n);
+    }
+      */
+
+
+
+
+
+
+
+      /*
+      void print8(int n){
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < i ; j++)
+            {
+                cout << " ";
+            }
+            for (int j = 0; j < 2*n - (2*i+1); j++)
+            {
+                cout << "*" ;
+            }
+            for (int j = 0; j < i ; j++)
+            {
+                cout << " ";
+            }
+            cout << endl;
+        }
+    }
+    int main(){
+        int n;
+        cin >> n;
+        print8(n);
+    }
+        */
+
+
+
+
+
+
+        void print9a(int n){
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < n-i-1 ; j++)
+            {
+                cout << " ";
+            }
+            for (int j = 0; j < 2*i+1; j++)
+            {
+                cout << "*" ;
+            }
+            for (int j = 0; j < n-i-1 ; j++)
+            {
+                cout << " ";
+            }
+                cout << endl;
+            }
+        }
+        void print9(int n){
+            for (int i = 0; i < n; i++)
+            {
+                for (int j = 0; j < i ; j++)
+                {
+                    cout << " ";
+                }
+                for (int j = 0; j < 2*n - (2*i+1); j++)
+                {
+                    cout << "*" ;
+                }
+                for (int j = 0; j < i ; j++)
+                {
+                    cout << " ";
+                }
+                cout << endl;
+            }
+        }
+        int main(){
+            int n;
+            cin >> n;
+            print9a(n);
+            print9(n);
+        }
+
+
+
+
+
+
+
+
+      
 
 
 
