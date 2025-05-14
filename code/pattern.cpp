@@ -112,7 +112,7 @@ int main(){
     cin >> n;
     print5(n);
 }  
-*/  
+* 
 
 
 
@@ -203,7 +203,7 @@ int main(){
 
 
 
-
+        /*
         void print9a(int n){
             for (int i = 0; i < n; i++)
             {
@@ -246,8 +246,30 @@ int main(){
             print9a(n);
             print9(n);
         }
+            */
 
 
+
+            void print10(int n){
+                for (int i = 1; i <= n; i++) {
+                    // Print underscores
+                    for (int j = 1; j <= n - i; j++) {
+                        cout << " ";
+                    }
+            
+                    // Print stars
+                    for (int k = 1; k <= i; k++) {
+                        cout << "*";
+                    }
+            
+                    cout << endl;
+                }
+            }    
+            int main(){
+                int n;
+                cin >> n;
+                print10(n);
+            }  
 
 
 
